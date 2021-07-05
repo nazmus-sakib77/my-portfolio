@@ -8,7 +8,7 @@ h1{
     font-size: 50px;
 }
 
-.nz_span{
+.orange_color{
     color: orange;
 }
 
@@ -44,4 +44,32 @@ section{
 .dream-big{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
+    background-position: right;
+}
+.h1-exp{text-align: center;}
+.exp-felx{
+    display: flex;
+}
+.expereinces-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position-y: 200px;
+}
+.expereinces-item{
+    width: 50%;
+    margin: 100px 70px;
+    padding-top: 0;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 100px;
+    box-shadow: 10px 10px 40px rgba(0, 0, 0, 0.431);
+    border-left: 10px solid ;
+    border-image: linear-gradient( lightsalmon, tomato);
+    border-image-slice: 1 ;
+  
+}
+
+.footer{
+    text-align: center;
+    color:rgb(66, 66, 66);
 }
